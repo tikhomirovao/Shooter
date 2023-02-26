@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<conio.h>
 using namespace std;
 #define Enter  13
@@ -12,19 +12,19 @@ void main()
 	{
 		key = _getch();
 		if (key == 'w' || key == 'W')
-			cout << "Âïåðåä" << endl;
+			cout << "Ð’Ð¿ÐµÑ€ÐµÐ´" << endl;
 		else if (key == 's' || key == 'S')
-			cout << "Íàçàä" << endl;
+			cout << "ÐÐ°Ð·Ð°Ð´" << endl;
 		else if (key == 'a' || key == 'A')
-			cout << "Âëåâî" << endl;
+			cout << "Ð’Ð»ÐµÐ²Ð¾" << endl;
 		else if (key == 'd' || key == 'D')
-			cout << "Âïðàâî" << endl;
+			cout << "Ð’Ð¿Ñ€Ð°Ð²Ð¾" << endl;
 		else if (key == ' ')
-			cout << "Ïðûæîê" << endl;
+			cout << "ÐŸÑ€Ñ‹Ð¶Ð¾Ðº" << endl;
 		else if (key == Enter)
-			cout << "Îãîíü" << endl;
+			cout << "ÐžÐ³Ð¾Ð½ÑŒ" << endl;
 		else if (key == Escape)
-			cout << "Âûõîä" << endl;
+			cout << "Ð’Ñ‹Ñ…Ð¾Ð´" << endl;
 		else
 			cout << "Error" << endl;
 	} while (key != Escape);
